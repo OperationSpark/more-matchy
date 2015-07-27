@@ -24,7 +24,7 @@
           ACTUAL = name;
         };
         fn('inner');
-        expect(ACTUAL === 'inner').to.be.true;
+        expect(ACTUAL === '???').to.be.true;
       });
 
       it('a function has access to the variables contained within the same scope that function was created in', function () {
@@ -33,7 +33,7 @@
           ACTUAL = name;
         };
         fn();
-        expect(ACTUAL === 'outer').to.be.true;
+        expect(ACTUAL === '???').to.be.true;
       });
 
       it('a function\'s local scope variables are not available anywhere outside that function', function () {
