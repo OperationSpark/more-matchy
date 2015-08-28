@@ -1,7 +1,7 @@
 [
     { 
         "species": "dog", 
-        "tagline": "Doggie style is my thang", 
+        "tagline": "I'm barking at your moon!", 
         "noises": ["woof", "bark", "whine", "growl"], 
         "relationships": {
             "friends": ["horse", "cat"],
